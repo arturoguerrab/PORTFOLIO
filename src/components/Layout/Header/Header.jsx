@@ -65,7 +65,7 @@ const Header = () =>{
             </div>
 
             <MobileNav open={openNav}>
-                <div className="">
+                <div className={openNav ? "static" : "hidden"}>
                 <NavList/>
                 </div>
             </MobileNav>
